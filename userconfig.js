@@ -30,36 +30,37 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'boards',
+      name: 'main',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'Programming',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://github.com',
+            icon: 'brand-github',
+            icon_color: '#548796'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            name: 'leetcode',
+            url: 'https://leetcode.com',
+            icon: 'brand-leetcode',
+            icon_color: '#f54798'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            name: '',
+            url: 'https://reddit.com',
+            icon: 'brand-reddit',
+            icon_color: '#763421'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            name: 'StackOverFlow',
+            url: 'https://stackoverflow.com',
+            icon: 'brand-stackoverflow',
+            icon_color: '#cb747b'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            name: 'advent of code',
+            url: 'https://adventofcode.com',
           }
         ]
       },
