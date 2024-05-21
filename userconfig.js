@@ -73,7 +73,7 @@ const CONFIG = new Config({
         links: [
           {
             name: 'Google Calendar',
-            url: 'https://sushigirl.us/lounge/catalog.html',
+            url: 'https://calendar.google.com/calendar/u/0/r',
             icon: 'calendar',
             icon_color: '#12e5cc'
 
