@@ -61,20 +61,23 @@ const CONFIG = new Config({
           {
             name: 'advent of code',
             url: 'https://adventofcode.com',
+          },
+          {
+            name: 'CodeForces',
+            url: 'https://codeforces.com'
           }
         ]
       },
       {
-        name: 'Comfy',
+        name: 'Calendar',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: 'Google Calendar',
+            url: 'https://sushigirl.us/lounge/catalog.html',
+            icon: 'calendar',
+            icon_color: '#12e5cc'
+
           },
-          {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
-          }
         ]
       },
       {
