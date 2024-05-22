@@ -81,29 +81,14 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Technology',
+        name: 'Chess',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: 'lichess',
+            url: 'https://lichess.org/',
+            icon: 'chess',
+            icon_color: '#4a35fe'
           },
-          {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
-          },
-          {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
-          },
-          {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
-          },
-          {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
-          }
         ]
       }
       ]
